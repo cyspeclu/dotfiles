@@ -1,0 +1,22 @@
+configuration {
+	display-drun: "Applications: " ;
+	display-run: "Applications: " ;
+	drun-display-format: "{icon} {name}";
+	run-display-format: "{icon} {name}";
+	icon-theme: "Papirus";
+	show-icons: true;
+	combi-mode: "drun, run";
+	modi: "drun, run";
+}
+@theme "/dev/null"
+* {
+	bg:#171717;
+	foreground: #F8F8F8;
+	background-color: @bg;
+	border: 1px solid #FFFFFF;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	spacing: 0;
+	color: #FF0000;
+}

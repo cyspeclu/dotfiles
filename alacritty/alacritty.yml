@@ -1,0 +1,81 @@
+# Background opacity
+opacity: 0.5
+
+# Window title
+#class:
+  # Application instance name
+  #instance: Alacritty
+  # General application class
+  #general: Alacritty
+
+# Font configuration
+font:
+  normal:
+    family: Cousine Nerd Font
+    style: Bold
+  
+  additional_fonts:
+    - family: "Noto Color Emoji"
+      style: Regular
+
+# Colors (N
+colors:
+  primary:
+    background: '#111318'
+    foreground: '#b8c7d3'
+  normal:
+    black: '#111318'
+    white: '#b8c7d3'
+    red: '#ff6b6b'
+    green: '#76ff95'
+    yellow: '#f8d66d'
+    blue: '#64aaff'
+    magenta: '#c792ea'
+    cyan: '#64e9ee'
+  bright:
+    black: '#292e33'
+    white: '#ffffff'
+    red: '#ff6b6b'
+    green: '#76ff95'
+    yellow: '#f8d66d'
+    blue: '#64aaff'
+    magenta: '#c792ea'
+    cyan: '#64e9ee'
+
+#colors:primary:
+#    background: '#101010'
+#    foreground: '#ffffff'  
+#  normal:
+#    black: '#101010'
+#    white: '#EBEBEB'
+#    red: '#D81765'
+#    green: '#97D01A'
+#    yellow: '#FFA800'
+#    blue: '#16B1FB'
+#    magenta: '#FF2491'
+#    cyan: '#0FDCB6'
+#  bright:
+#  black: '#38252C'
+#    white: '#F8F8F8'
+#    red: '#FF0000'
+#    green: '#76B639'
+#    yellow: '#E1A126'
+#    blue: '#289CD5'
+#    magenta: '#FF2491'
+#    cyan: '#0A9B81'
+#draw_bold_text_with_bright_colors: true
+
+# Cursor configuration 
+cursor:
+  style:
+    shape: Block
+    blinking: On
+
+# Shell
+shell:
+  program: /bin/zsh
+
+# Key bindings
+key_bindings:
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: V, mods: Control|Shift, action: Paste }

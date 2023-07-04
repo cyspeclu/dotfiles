@@ -1,0 +1,7 @@
+require('core.map')
+require('core.settings')
+require('core.run')
+require('packer.plugins')
+require('plugins.ntree')
+require('plugins.lualine')
+require('plugins.bufferline')
